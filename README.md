@@ -30,7 +30,7 @@ cd posttest_PDAB
 
 ```cmd
 python -m venv .env
-source .env/bin/activate  # Command Prompt: .env\Scripts\activate
+.env\Scripts\activate
 ```
 
 ### 3. Install Dependensi

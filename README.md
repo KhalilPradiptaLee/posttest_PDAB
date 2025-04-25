@@ -5,10 +5,10 @@ Sebuah mini-proyek berbasis **FastAPI** yang dapat memprediksi kualitas udara **
 ## 📁 Struktur File
 
 ```
-├── app.py                  # Endpoint API utama
+├── app.py                  # File python yang berisi endpoint API utama
 ├── knn_model.pkl           # File model Machine Learning yang telah dilatih
 ├── scaler.pkl              # File scaler untuk normalisasi fitur input
-├── requirements.txt        # Daftar dependency yang dibutuhkan
+├── requirements.txt        # Daftar dependency/library yang dibutuhkan
 ```
 
 ## 🚀 Fitur API
@@ -22,8 +22,8 @@ Sebuah mini-proyek berbasis **FastAPI** yang dapat memprediksi kualitas udara **
 ### 1. Clone Repositori
 
 ```cmd
-git clone 
-cd titanic-fastapi
+git clone https://github.com/KhalilPradiptaLee/posttest_PDAB.git
+cd posttest_PDAB
 ```
 
 ### 2. Buat Virtual Environment

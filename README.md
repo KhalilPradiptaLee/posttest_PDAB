@@ -21,27 +21,27 @@ Sebuah mini-proyek berbasis **FastAPI** yang dapat memprediksi kualitas udara **
 
 ### 1. Clone Repositori
 
-```bash
-git clone https://github.com/Daivageralda/titanic-fastapi.git
+```cmd
+git clone 
 cd titanic-fastapi
 ```
 
 ### 2. Buat Virtual Environment
 
-```bash
+```cmd
 python -m venv .env
 source .env/bin/activate  # Command Prompt: .env\Scripts\activate
 ```
 
 ### 3. Install Dependensi
 
-```bash
+```cmd
 pip install -r requirements.txt
 ```
 
 ### 4. Jalankan API
 
-```bash
+```cmd
 fastapi dev
 ```
 
@@ -54,14 +54,11 @@ Buka browser ke:
 
 ```json
 {
-  "Name": "John Doe",
-  "Pclass": 2,
-  "Sex": "male",
-  "Age": 30,
-  "SibSp": 1,
-  "Parch": 0,
-  "Fare": 13.5,
-  "Embarked": "S"
+  "pm10": 51,
+  "so2": 33,
+  "co": 70,
+  "o3": 66,
+  "no2": 29
 }
 ```
 
@@ -69,12 +66,9 @@ Buka browser ke:
 
 ```json
 {
-  "name": "John Doe",
-  "prediction": 1,
-  "result": "Survived"
+  "prediction": 2,
+  "kategori": "SEDANG"
 }
 ```
 
-
-> Dibuat sebagai bagian dari praktik tahap **Deployment** dalam metode **CRISP-DM**.  
-> Proyek ini dapat dijadikan dasar pengembangan API prediksi sederhana lainnya.
+> Dibuat sebagai bagian dari praktik tahap **Deployment** dengan menggunakan metode **CRISP-DM**.  

@@ -42,7 +42,7 @@ pip install -r requirements.txt
 ### 4. Jalankan API
 
 ```cmd
-fastapi dev
+uvicorn app:app --reload
 ```
 
 ### 5. Akses Swagger UI

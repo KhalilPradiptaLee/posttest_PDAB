@@ -20,7 +20,6 @@ kategori_mapping = {
     2: "SEDANG",
     3: "TIDAK SEHAT",
     4: "SANGAT TIDAK SEHAT",
-    5: "BERBAHAYA",
 }
 
 # Input schema

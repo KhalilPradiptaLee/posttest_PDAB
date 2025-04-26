@@ -11,7 +11,7 @@ Sebuah mini-proyek berbasis **FastAPI** yang dapat memprediksi kualitas udara **
 ├── requirements.txt        # Daftar dependency/library yang dibutuhkan
 ```
 
-## 🚀 Fitur API
+## ☁️ Fitur API ☁️
 
 - Prediksi kualitas udara
 - Menerima input melalui metode POST
@@ -50,7 +50,7 @@ uvicorn app:app --reload
 Buka browser ke:  
 👉 [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
-## 🧪 Contoh JSON Input
+## ✏️ Contoh JSON Input
 
 ```json
 {
